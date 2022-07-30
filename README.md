@@ -1,10 +1,7 @@
 # PyBer_Analysis
 
 ## Overview 
-Explain the purpose of the new analysis.
-
-Background
-V. Isualize has given you and Omar a brand-new assignment. Using your Python skills and knowledge of Pandas, you’ll create a summary DataFrame of the ride-sharing data by city type. Then, using Pandas and Matplotlib, you’ll create a multiple-line graph that shows the total weekly fares for each city type. Finally, you’ll submit a written report that summarizes how the data differs by city type and how those differences can be used by decision-makers at PyBer.
+Pyber is a python based ride sharing app that operates in urban, suburban, and rural cities. The purpose of this analysis is to determine how the data differs by city type and how those differences can be used by decision-makers at PyBer. Python and Pandas functions will be used to create a summary DataFrame of the ride-sharing data by city type and then Matplotlib and new Pandas functions will be used to create a multiple-line graph depicting the total weekly fares for each city type. 
 
 ## Resources
 ### Data Source
@@ -14,11 +11,10 @@ V. Isualize has given you and Omar a brand-new assignment. Using your Python ski
 ### Software
 - Python 3.7.6
 - Conda 4.13.0
-- Jupyter Notebook 
+- Jupyter Notebook 6.4.8
 - Dependencies:
   - Python Pandas Library
-  - Python Numpy Library
-  - ?
+  - Python MatPlotLib Library
 
 ## Results
 Using images from the summary DataFrame and multiple-line chart, describe the differences in ride-sharing data among the different city types. There is a description of the differences in ride-sharing data among the different city types. Ride-sharing data include the total rides, total drivers, total fares, average fare per ride and driver, and total fare by city type.
