@@ -17,8 +17,6 @@ Pyber is a python based ride sharing app that operates in urban, suburban, and r
   - Python MatPlotLib Library
 
 ## Results
-Using images from the summary DataFrame and multiple-line chart, describe the differences in ride-sharing data among the different city types. There is a description of the differences in ride-sharing data among the different city types. Ride-sharing data include the total rides, total drivers, total fares, average fare per ride and driver, and total fare by city type.
-
 The full Jupyter Notebook can be referenced here: 
 <br /> https://github.com/lkachury/PyBer_Analysis/blob/main/PyBer_Challenge.ipynb
 
