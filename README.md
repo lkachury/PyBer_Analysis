@@ -14,12 +14,16 @@ Deliverable 1: A ride-sharing summary DataFrame by city type
 Using the Pandas groupby() function with the count() and sum() methods on PyBer DataFrame columns, get the total number of rides, total number of drivers, and the total fares for each city type. Then, calculate the average fare per ride and average fare per driver for each city type. Finally, add this data to a new DataFrame, then format the columns.
 
 1. The total number of rides for each city type is retrieved. 
-2. The total number of drivers for each city type is retrieved. 
-3. The sum of the fares for each city type is retrieved. 
-4. The average fare per ride for each city type is calculated. 
-5. The average fare per driver for each city type is calculated. 
-6. A PyBer summary DataFrame is created. 
-7. The PyBer summary DataFrame is formatted as shown in the example. 
+> In Step 1, use the groupby() function to create a Series of data that has the type of city as the index, then apply the count() method to the "ride_id" column.
+
+
+
+3. The total number of drivers for each city type is retrieved. 
+4. The sum of the fares for each city type is retrieved. 
+5. The average fare per ride for each city type is calculated. 
+6. The average fare per driver for each city type is calculated. 
+7. A PyBer summary DataFrame is created. 
+8. The PyBer summary DataFrame is formatted as shown in the example. 
 
 
 
