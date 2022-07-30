@@ -11,6 +11,7 @@ V. Isualize has given you and Omar a brand-new assignment. Using your Python ski
 Using images from the summary DataFrame and multiple-line chart, describe the differences in ride-sharing data among the different city types. There is a description of the differences in ride-sharing data among the different city types. Ride-sharing data include the total rides, total drivers, total fares, average fare per ride and driver, and total fare by city type.
 
 The full Jupyter Notebook can be referenced here:
+https://github.com/lkachury/PyBer_Analysis/blob/main/PyBer_Challenge.ipynb
 
 ### Ride-Sharing Summary DataFrame By City Type
 This DataFrame was created by using the Pandas groupby() function with the count() and sum() methods on PyBer DataFrame columns to get the total number of rides, total number of drivers, and the total fares for each city type and then calculating the average fare per ride and average fare per driver for each city type. 
