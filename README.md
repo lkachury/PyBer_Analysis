@@ -6,11 +6,25 @@ Explain the purpose of the new analysis.
 Background
 V. Isualize has given you and Omar a brand-new assignment. Using your Python skills and knowledge of Pandas, you’ll create a summary DataFrame of the ride-sharing data by city type. Then, using Pandas and Matplotlib, you’ll create a multiple-line graph that shows the total weekly fares for each city type. Finally, you’ll submit a written report that summarizes how the data differs by city type and how those differences can be used by decision-makers at PyBer.
 
+## Resources
+### Data Source
+- city_data.csv
+- ride_data.csv
+
+### Software
+- Python 3.7.6
+- Conda 4.13.0
+- Jupyter Notebook 
+- Dependencies:
+  - Python Pandas Library
+  - Python Numpy Library
+  - ?
 
 ## Results
 Using images from the summary DataFrame and multiple-line chart, describe the differences in ride-sharing data among the different city types. There is a description of the differences in ride-sharing data among the different city types. Ride-sharing data include the total rides, total drivers, total fares, average fare per ride and driver, and total fare by city type.
 
-The full Jupyter Notebook can be referenced here:
+The full Jupyter Notebook can be referenced here: 
+<br /> https://github.com/lkachury/PyBer_Analysis/blob/main/PyBer_Challenge.ipynb
 
 ### Ride-Sharing Summary DataFrame By City Type
 This DataFrame was created by using the Pandas groupby() function with the count() and sum() methods on PyBer DataFrame columns to get the total number of rides, total number of drivers, and the total fares for each city type and then calculating the average fare per ride and average fare per driver for each city type. 
@@ -36,16 +50,23 @@ This DataFrame was created by using the Pandas groupby() function with the count
 7. The PyBer summary DataFrame is formatted: 
 <br /> ![image](https://user-images.githubusercontent.com/108038989/181867605-54373de9-3ed7-46a0-b08f-3eb9524dc179.png)
 
-Deliverable 2: A multiple-line chart of total fares for each city type (45 points)
-Using your Pandas skills and two new functions, pivot() andresample(), create a multiple-line graph that shows the total fares for each week by city type.
+### Multiple-Line Chart of Total Fares for Each City Type 
+This multiple-line graph depicting the total fares for each week by city type was created by using the Pandas pivot() and andresample() functions. 
 
-1. A DataFrame was created using the groupby() function on the "type" and "date" columns, and the sum() method is applied on the "fare" column to show the total fare amount for each date and time. 
-2. A DataFrame was created using the pivot() function where the index is the "date," the columns are the city "type," and the values are the "fare." 
-3. A DataFrame was created using the loc method on the date range: 2019-01-01 through 2019-04-28. 
-4. A DataFrame was created using the resample() function in weekly bins and shows the sum of the fares for each week. 
+1. A DataFrame was created using the groupby() function on the "type" and "date" columns, and the sum() method is applied on the "fare" column to show the total fare amount for each date and time: 
+<br /> ![image](https://user-images.githubusercontent.com/108038989/181872511-057566ea-42fb-4850-abba-31205de082de.png)
+
+2. A DataFrame was created using the pivot() function where the index is the "date," the columns are the city "type," and the values are the "fare":
+<br /> ![image](https://user-images.githubusercontent.com/108038989/181872529-b1ed0f07-a6a4-435f-adcb-82a1a589af29.png)
+
+3. A DataFrame was created using the loc method on the date range: 2019-01-01 through 2019-04-28: 
+<br /> ![image](https://user-images.githubusercontent.com/108038989/181872546-9d44c889-f595-4b5b-a01c-6bbe5c485a38.png)
+
+4. A DataFrame was created using the resample() function in weekly bins and shows the sum of the fares for each week: 
+<br /> ![image](https://user-images.githubusercontent.com/108038989/181872564-9bae335e-1c58-4087-ac34-02a781496b9c.png)
+
 5. An annotated chart showing the total fares by city type is created and saved to the "analysis" folder. 
-
-
+<br /> ![image](https://user-images.githubusercontent.com/108038989/181872572-5907201c-503c-4f9e-9319-802277e228a9.png)
 
 ## Summary
 Based on the results, provide three business recommendations to the CEO for addressing any disparities among the city types.
