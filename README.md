@@ -16,25 +16,25 @@ The full Jupyter Notebook can be referenced here:
 This DataFrame was created by using the Pandas groupby() function with the count() and sum() methods on PyBer DataFrame columns to get the total number of rides, total number of drivers, and the total fares for each city type and then calculating the average fare per ride and average fare per driver for each city type. 
 
 1. The total number of rides for each city type is retrieved:
-![image](https://user-images.githubusercontent.com/108038989/181867520-22addf8b-dd6d-476f-929c-b9bcdfb99c37.png)
+<br /> ![image](https://user-images.githubusercontent.com/108038989/181867520-22addf8b-dd6d-476f-929c-b9bcdfb99c37.png)
 
 2. The total number of drivers for each city type is retrieved: 
-![image](https://user-images.githubusercontent.com/108038989/181867531-5291dd00-3fad-4f15-98fb-67db4ee6ceab.png)
+<br /> ![image](https://user-images.githubusercontent.com/108038989/181867531-5291dd00-3fad-4f15-98fb-67db4ee6ceab.png)
 
 3. The sum of the fares for each city type is retrieved: 
-![image](https://user-images.githubusercontent.com/108038989/181867538-ddb738b1-8f8f-4009-b0e7-59dbb38b2d3b.png)
+<br /> ![image](https://user-images.githubusercontent.com/108038989/181867538-ddb738b1-8f8f-4009-b0e7-59dbb38b2d3b.png)
 
 4. The average fare per ride for each city type is calculated: 
-![image](https://user-images.githubusercontent.com/108038989/181867552-b2087c1e-af1a-4671-8e7a-bb4f21a64cc6.png)
+<br /> ![image](https://user-images.githubusercontent.com/108038989/181867552-b2087c1e-af1a-4671-8e7a-bb4f21a64cc6.png)
 
 5. The average fare per driver for each city type is calculated: 
-![image](https://user-images.githubusercontent.com/108038989/181867566-986249e6-a002-492a-aa9c-f489a6921c9a.png)
+<br /> ![image](https://user-images.githubusercontent.com/108038989/181867566-986249e6-a002-492a-aa9c-f489a6921c9a.png)
 
 6. A PyBer summary DataFrame is created: 
 <br /> ![image](https://user-images.githubusercontent.com/108038989/181867583-4024fb2b-b4cb-4cf3-ac81-f39e4ab9cea2.png)
 
 7. The PyBer summary DataFrame is formatted: 
-![image](https://user-images.githubusercontent.com/108038989/181867605-54373de9-3ed7-46a0-b08f-3eb9524dc179.png)
+<br /> ![image](https://user-images.githubusercontent.com/108038989/181867605-54373de9-3ed7-46a0-b08f-3eb9524dc179.png)
 
 Deliverable 2: A multiple-line chart of total fares for each city type (45 points)
 Using your Pandas skills and two new functions, pivot() andresample(), create a multiple-line graph that shows the total fares for each week by city type.
