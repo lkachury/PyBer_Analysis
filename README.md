@@ -1,7 +1,7 @@
 # PyBer_Analysis
 
 ## Overview 
-Pyber is a python based ride sharing app that operates in urban, suburban, and rural cities. The purpose of this analysis is to determine how the data differs by city type and how those differences can be used by decision-makers at PyBer. Python and Pandas functions will be used to create a summary DataFrame of the ride-sharing data by city type and then Matplotlib and new Pandas functions will be used to create a multiple-line graph depicting the total weekly fares for each city type. 
+PyBer is a python based ride sharing app that operates in urban, suburban, and rural cities. The purpose of this analysis is to determine how the data differs by city type and how those differences can be used by decision-makers at PyBer. Python and Pandas functions will be used to create a summary DataFrame of the ride-sharing data by city type and then Matplotlib and new Pandas functions will be used to create a multiple-line graph depicting the total weekly fares for each city type. 
 
 ## Resources
 ### Data Source
@@ -69,4 +69,8 @@ This multiple-line graph depicting the total fares for each week by city type wa
 <br /> ![image](https://user-images.githubusercontent.com/108038989/181872572-5907201c-503c-4f9e-9319-802277e228a9.png)
 
 ## Summary
-Based on the results, provide three business recommendations to the CEO for addressing any disparities among the city types.
+Rural cities have the lowest total fares but the highest average fare per ride and driver, it is recommended that the PyBer CEO allocate more drivers to rural cities in order to increase their profits. 
+
+Total fares for all city types peaked around the end of February, perhaps due to an increased demand for rides with the start of Spring. It is also recommended that PyBer partner with local events in these cities in order to increase the demand for rides.
+
+Lastly, it is recommended that Pyber offer some incentive for drivers in order to attarct and maintain drivers in rural and suburban cities.
