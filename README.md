@@ -31,7 +31,7 @@ This DataFrame was created by using the Pandas groupby() function with the count
 ![image](https://user-images.githubusercontent.com/108038989/181867566-986249e6-a002-492a-aa9c-f489a6921c9a.png)
 
 6. A PyBer summary DataFrame is created: 
-![image](https://user-images.githubusercontent.com/108038989/181867583-4024fb2b-b4cb-4cf3-ac81-f39e4ab9cea2.png)
+  ![image](https://user-images.githubusercontent.com/108038989/181867583-4024fb2b-b4cb-4cf3-ac81-f39e4ab9cea2.png)
 
 7. The PyBer summary DataFrame is formatted: 
 ![image](https://user-images.githubusercontent.com/108038989/181867605-54373de9-3ed7-46a0-b08f-3eb9524dc179.png)
