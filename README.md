@@ -50,13 +50,21 @@ This DataFrame was created by using the Pandas groupby() function with the count
 7. The PyBer summary DataFrame is formatted: 
 <br /> ![image](https://user-images.githubusercontent.com/108038989/181867605-54373de9-3ed7-46a0-b08f-3eb9524dc179.png)
 
-Deliverable 2: A multiple-line chart of total fares for each city type (45 points)
-Using your Pandas skills and two new functions, pivot() andresample(), create a multiple-line graph that shows the total fares for each week by city type.
+### Multiple-Line Chart of total fares for each city type 
+This multiple-line graph depicting the total fares for each week by city type was created by using the Pandas pivot() and andresample() functions. 
 
 1. A DataFrame was created using the groupby() function on the "type" and "date" columns, and the sum() method is applied on the "fare" column to show the total fare amount for each date and time. 
+
+
 2. A DataFrame was created using the pivot() function where the index is the "date," the columns are the city "type," and the values are the "fare." 
+
+
 3. A DataFrame was created using the loc method on the date range: 2019-01-01 through 2019-04-28. 
+
+
 4. A DataFrame was created using the resample() function in weekly bins and shows the sum of the fares for each week. 
+
+
 5. An annotated chart showing the total fares by city type is created and saved to the "analysis" folder. 
 
 
