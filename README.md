@@ -44,6 +44,12 @@ This DataFrame was created by using the Pandas groupby() function with the count
 7. The PyBer summary DataFrame is formatted: 
 <br /> ![image](https://user-images.githubusercontent.com/108038989/181867605-54373de9-3ed7-46a0-b08f-3eb9524dc179.png)
 
+According to the dataframe, urban cities experince 13 times more rides than rural cities and over 2.5 times more rides than suburban cities. There are almost 5 times more drivers in urban cities than suburban cities and almost 31 times more drivers in urban cities than in rural cities. Total fares in urban cities were double the total fares of suburban cities and almost 4 times as much as the total fares of rural cities. 
+
+The average fare per ride among the three types of cities is about $30, which is the same as the average fare per ride in suburban cities. Rural cities have the highest average fare per ride as they have the lowest amount of rides and drivers while urban cities have the lowest average fare per ride since they have the largest amount of rides and drivers. 
+
+Average fare per driver is much more varied than average fare per ride among the three city types. The average fare per driver among the three types of cities is about $37, which is very close to the average fare per driver in suburban cities. The average fare per driver in rural cities is over 3 times as much as the average fare per driver in urban cities and almost 1.5 times as much as the average fare per in suburban cities. 
+
 ### Multiple-Line Chart of Total Fares for Each City Type 
 This multiple-line graph depicting the total fares for each week by city type was created by using the Pandas pivot() and andresample() functions. 
 
