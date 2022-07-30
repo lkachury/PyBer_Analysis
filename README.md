@@ -10,22 +10,31 @@ V. Isualize has given you and Omar a brand-new assignment. Using your Python ski
 ## Results
 Using images from the summary DataFrame and multiple-line chart, describe the differences in ride-sharing data among the different city types. There is a description of the differences in ride-sharing data among the different city types. Ride-sharing data include the total rides, total drivers, total fares, average fare per ride and driver, and total fare by city type.
 
-Deliverable 1: A ride-sharing summary DataFrame by city type
-Using the Pandas groupby() function with the count() and sum() methods on PyBer DataFrame columns, get the total number of rides, total number of drivers, and the total fares for each city type. Then, calculate the average fare per ride and average fare per driver for each city type. Finally, add this data to a new DataFrame, then format the columns.
+The full Jupyter Notebook can be referenced here:
 
-1. The total number of rides for each city type is retrieved. 
-> In Step 1, use the groupby() function to create a Series of data that has the type of city as the index, then apply the count() method to the "ride_id" column.
+### Ride-Sharing Summary DataFrame By City Type
+This DataFrame was created by using the Pandas groupby() function with the count() and sum() methods on PyBer DataFrame columns to get the total number of rides, total number of drivers, and the total fares for each city type and then calculating the average fare per ride and average fare per driver for each city type. 
 
+1. The total number of rides for each city type is retrieved:
+![image](https://user-images.githubusercontent.com/108038989/181867520-22addf8b-dd6d-476f-929c-b9bcdfb99c37.png)
 
+2. The total number of drivers for each city type is retrieved: 
+![image](https://user-images.githubusercontent.com/108038989/181867531-5291dd00-3fad-4f15-98fb-67db4ee6ceab.png)
 
-3. The total number of drivers for each city type is retrieved. 
-4. The sum of the fares for each city type is retrieved. 
-5. The average fare per ride for each city type is calculated. 
-6. The average fare per driver for each city type is calculated. 
-7. A PyBer summary DataFrame is created. 
-8. The PyBer summary DataFrame is formatted as shown in the example. 
+3. The sum of the fares for each city type is retrieved: 
+![image](https://user-images.githubusercontent.com/108038989/181867538-ddb738b1-8f8f-4009-b0e7-59dbb38b2d3b.png)
 
+4. The average fare per ride for each city type is calculated: 
+![image](https://user-images.githubusercontent.com/108038989/181867552-b2087c1e-af1a-4671-8e7a-bb4f21a64cc6.png)
 
+5. The average fare per driver for each city type is calculated: 
+![image](https://user-images.githubusercontent.com/108038989/181867566-986249e6-a002-492a-aa9c-f489a6921c9a.png)
+
+6. A PyBer summary DataFrame is created: 
+![image](https://user-images.githubusercontent.com/108038989/181867583-4024fb2b-b4cb-4cf3-ac81-f39e4ab9cea2.png)
+
+7. The PyBer summary DataFrame is formatted: 
+![image](https://user-images.githubusercontent.com/108038989/181867605-54373de9-3ed7-46a0-b08f-3eb9524dc179.png)
 
 Deliverable 2: A multiple-line chart of total fares for each city type (45 points)
 Using your Pandas skills and two new functions, pivot() andresample(), create a multiple-line graph that shows the total fares for each week by city type.
