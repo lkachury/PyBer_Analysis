@@ -6,12 +6,25 @@ Explain the purpose of the new analysis.
 Background
 V. Isualize has given you and Omar a brand-new assignment. Using your Python skills and knowledge of Pandas, you’ll create a summary DataFrame of the ride-sharing data by city type. Then, using Pandas and Matplotlib, you’ll create a multiple-line graph that shows the total weekly fares for each city type. Finally, you’ll submit a written report that summarizes how the data differs by city type and how those differences can be used by decision-makers at PyBer.
 
+## Resources
+### Data Source
+- city_data.csv
+- ride_data.csv
+
+### Software
+- Python 3.7.6
+- Conda 4.13.0
+- Jupyter Notebook 
+- Dependencies:
+  - Python Pandas Library
+  - Python Numpy Library
+  - ?
 
 ## Results
 Using images from the summary DataFrame and multiple-line chart, describe the differences in ride-sharing data among the different city types. There is a description of the differences in ride-sharing data among the different city types. Ride-sharing data include the total rides, total drivers, total fares, average fare per ride and driver, and total fare by city type.
 
-The full Jupyter Notebook can be referenced here:
-https://github.com/lkachury/PyBer_Analysis/blob/main/PyBer_Challenge.ipynb
+The full Jupyter Notebook can be referenced here: 
+<br /> https://github.com/lkachury/PyBer_Analysis/blob/main/PyBer_Challenge.ipynb
 
 ### Ride-Sharing Summary DataFrame By City Type
 This DataFrame was created by using the Pandas groupby() function with the count() and sum() methods on PyBer DataFrame columns to get the total number of rides, total number of drivers, and the total fares for each city type and then calculating the average fare per ride and average fare per driver for each city type. 
